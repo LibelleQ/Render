@@ -1,17 +1,35 @@
-# ESGI - Cloud course - Render Node.js app
+# esgi.render.static.vue
 
-To do this exercise, you must read carefully the given documentations and rules.
+This template should help get you started developing with Vue 3 in Vite.
 
-## Rules
+## Recommended IDE Setup
 
-- Deploy this Node.js application to Render:
-    - Create your service on Render in the Europe region
-    - Deploy your project to an online Git repository
-    - Link your service to your Git repository
-    - Configure properly the service to retrieve dependencies and start your project
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Resources
+## Customize configuration
 
-- Documentation:
-    - https://render.com/docs/web-services
-    - https://render.com/docs/deploy-node-express-app
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```

@@ -1,20 +1,23 @@
 {
-  "name": "esgi.render.nodejs",
-  "version": "1.0.0",
+  "name": "esgi.render.static.vue",
+  "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node ./bin/www"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.6",
-    "debug": "~4.3.4",
-    "express": "~4.18.1",
-    "hbs": "~4.2.0",
-    "http-errors": "~2.0.0",
-    "morgan": "~1.10.0",
-    "node-sass-middleware": "^1.0.1",
-    "pg": "^8.8.0",
-    "pg-hstore": "^2.3.4",
-    "sequelize": "^6.23.1"
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "vite": "^5.0.11"
   }
 }
