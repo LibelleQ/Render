@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  '', // Database name
+  'dpg-cneqsn8l5elc73dcr6fg-a', // Database name
   '', // User
   '', // Password
   {
