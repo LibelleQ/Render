@@ -18,5 +18,3 @@ databases:
   name: esgi2i2
   region: Frankfurt
   plan: free
-
-```
