@@ -8,7 +8,6 @@ services:
   buildCommand: npm install
   startCommand: npm start
   autoDeploy: true
-  deplouHook: https://api.render.com/deploy/srv-cneqmeeg1b2c73cvhokg?key=
   plan: free
   envVars:
     - key: DATABASE_URL
