@@ -1,9 +1,23 @@
 services: 
--type: web
-name: Onrender.com
-region: Frankfurt
-repo: git@github.com:LibelleQ/Render
-branch: main
-buildCommand: npm install
-startCommand: npm start
+  -type: web
+  name: Onrender.com
+  runtime: node
+  region: Frankfurt
+  repo: git@github.com:LibelleQ/Render
+  branch: main
+  buildCommand: npm install
+  startCommand: npm start
+  autoDeploy: true
+  deplouHook: https://api.render.com/deploy/srv-cneqmeeg1b2c73cvhokg?key=
+  plan: free
+  envVars:
+    - key: DATABASE_URL
+      fromDatabase: 
+        name: esgi2i2
+        property: connectionString
+databases:
+  name: esgi2i2
+  region: Frankfurt
+  plan: free
+
 ```
